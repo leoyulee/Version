@@ -8,9 +8,7 @@ if DevPackages then
         local Parent = ReplicatedStorage:FindFirstChild(ThisTest.Name, true)
         ThisTest.Parent = Parent
         ThisTest.Name = ThisTest.Name..".spec"
+        Tests[i] = Parent
     end
-    TestEZ.TestBootstrap:run({
-        ReplicatedStorage.Versioner;
-        --ReplicatedStorage.Versioner.Version;
-    })
+    TestEZ.TestBootstrap:run(Tests)
 end

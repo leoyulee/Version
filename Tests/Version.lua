@@ -1,6 +1,5 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 return function()
-    local Version = require(ReplicatedStorage.Versioner.Version)
+    local Version = require(script.Parent)
     describe("Version", function()
         it("should have its functions", function()
             expect(Version).to.be.ok() --"Version didn't return anything!"

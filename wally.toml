@@ -3,14 +3,14 @@ name = "leoyulee/version"
 description = "A module that allows usage of Semantic Verisoning 2.0 in roblox projects"
 license = "MIT"
 authors = ["leoyulee"]
-version = "0.1.0"
+version = "0.1.2"
 
 
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 exclude = ["**"]
-include = ["src", "src/*", "publish.project.json", "wally.lock", "wally.toml"]
+include = ["src", "src/*", "default.project.json", "wally.toml"]
 
 [dependencies]
 

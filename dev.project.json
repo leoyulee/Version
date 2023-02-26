@@ -1,0 +1,27 @@
+{
+  "name": "versioner",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Version":{
+        "$path": "src"
+      },
+      "DevPackages": {
+        "$path": {
+          "optional": "DevPackages"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "Tests": {
+        "$path": {
+          "optional": "Tests"
+        }
+      }
+    }
+  }
+}
