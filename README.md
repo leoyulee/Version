@@ -1,6 +1,18 @@
 # Version
 A module that allows the creation of "Version" objects that follow the rules of [Semantic Versioning 2.0.0](https://semver.org/).
 
+## Installation/Setup
+For now, only Wally is supported. If there's demand, other methods will be added!
+### Usage With Wally
+Put the following under `[dependacies]` in your `wally.toml` file:
+```
+Version = "leoyulee/version@0.1.2"
+```
+Then run `wally install`.
+
+## Latest Update/Patch Notes
+- Separated from [Versioner](https://github.com/leoyulee/Versioner)
+
 ## Functionality Overview
 Refer to the [Github Pages](https://leoyulee.github.io/Version/) for full documentation.
 
@@ -24,17 +36,6 @@ Refer to the [Github Pages](https://leoyulee.github.io/Version/) for full docume
 - [GetMinorVersion() -> (MinorVersion: number)](https://leoyulee.github.io/Version/api/Version#GetMinorVersion)
 - [GetPatchVersion() -> (PatchVersion: number)](https://leoyulee.github.io/Version/api/Version#GetPatchVersion)
 
-## Installation/Setup
-For now, only Wally is supported. If there's demand, other methods will be added!
-### Usage With Wally
-Put the following under `[dependacies]` in your `wally.toml` file:
-```
-Version = "leoyulee/version@0.1.2"
-```
-Then run `wally install`.
-
-## Latest Update/Patch Notes
-- Separated from [Versioner](https://github.com/leoyulee/Versioner)
 
 ## Development & Contributing
 
