@@ -4,18 +4,18 @@ A module that allows the creation of "Version" objects that follow the rules of 
 ## Functionality Overview
 Refer to the [Github Pages](https://leoyulee.github.io/Version/) for full documentation.
 
-Properties:
+### Properties
 - [MajorVersion](https://leoyulee.github.io/Version/api/Version#MajorVersion)
 - [MinorVersion](https://leoyulee.github.io/Version/api/Version#MinorVersion)
 - [PatchVersion](https://leoyulee.github.io/Version/api/Version#PatchVersion)
 
-Metamethods:
+### Metamethods
 - Comparison Operators ([`=`](https://leoyulee.github.io/Version/api/Version#__eq), [`<`](https://leoyulee.github.io/Version/api/Version#__lt), [`>`](https://leoyulee.github.io/Version/api/Version#__le), [`<=`](https://leoyulee.github.io/Version/api/Version#__le), [`>=`](https://leoyulee.github.io/Version/api/Version#__lt))
     - Can only compare with other Version objects
 - [`tostring`](https://leoyulee.github.io/Version/api/Version#__tostring)
 - [Concatinate with other strings](https://leoyulee.github.io/Version/api/Version#__concat)
 
-Functions:
+### Functions
 - [new(MajorVersion: number, MinorVersion: number, PatchVersion: number) -> (Version)](https://leoyulee.github.io/Version/api/Version#new)
 - [new(VersionString: string) -> (Version)](https://leoyulee.github.io/Version/api/Version#new)
 - [fromString(VersionString: string) -> (Version)](https://leoyulee.github.io/Version/api/Version#fromString)
