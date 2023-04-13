@@ -2,8 +2,8 @@
 /.vscode
 
 # Project place file
-/AssetService.rbxlx
-/AssetService.rbxl
+/Version.rbxlx
+/Version.rbxl
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock

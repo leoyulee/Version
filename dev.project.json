@@ -1,5 +1,5 @@
 {
-  "name": "versioner",
+  "name": "[DEV] Version",
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
