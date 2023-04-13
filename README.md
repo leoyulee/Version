@@ -34,7 +34,7 @@ Version = "leoyulee/version@0.1.2"
 Then run `wally install`.
 
 ## Latest Update/Patch Notes
-- Fixed an incorrect reference preventing this package from functioning in wally workspaces.
+- Separated from [Versioner](https://github.com/leoyulee/Versioner)
 
 ## Development & Contributing
 
